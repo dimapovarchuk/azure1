@@ -6,13 +6,13 @@ data "azurerm_resource_group" "existing" {
   name = var.rg_name
 }
 
-data "azurerm_resource_group" "this" {
+resource "azurerm_resource_group" "this" {
   name     = data.azurerm_resource_group.existing.name
   location = data.azurerm_resource_group.existing.location
   tags     = var.tags
 }
 
-resource "azurerm_storage_account" "existing" {
+data "azurerm_storage_account" "existing" {
   name = var.storage_account_name
 }
 
