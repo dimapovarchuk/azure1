@@ -1,6 +1,6 @@
 rg_name                          = "cmtr-82c341d6-mod3-rg"
 location                         = "North Europe"
-storage_account_name             = "cmtr82c341d6mod3s"
+storage_account_name             = "cmtr82c341d6mod3sa"
 storage_account_replication_type = "LRS"
 vnet_name                        = "cmtr-82c341d6-mod3-vnet"
 vnet_address_space               = ["10.0.0.0/16"]
