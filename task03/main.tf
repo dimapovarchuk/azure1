@@ -1,9 +1,5 @@
 provider "azurerm" {
   features {}
-  subscription_id = "f8248f29-545c-4088-8e6f-42ff3eb9ec0d"
-  tenant_id       = "1a6b36a8-bd2f-4b98-80fd-0d92a1168312"
-  client_id       = "29bd78d5-b909-4d5c-9217-8c0a6e744309"
-  client_secret   = "T_i8Q~4HYbYDdZjEUo4oK3hUhiGbwNEm.mQ4dc52"
 }
 
 data "azurerm_resource_group" "existing" {
